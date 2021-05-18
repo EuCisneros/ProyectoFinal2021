@@ -16,8 +16,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-7 text-center">
                 <h1>Información</h1>
-                <hr>
-                <img src="images/TEA.jpg" width="700" class="img-fluid">
+                <img src="images/TEA" class="img-fluid" alt="">
                 <p class="text-left">
                     El trastorno del espectro autista o TEA
                     es un trastorno del desarrollo que se caracteriza

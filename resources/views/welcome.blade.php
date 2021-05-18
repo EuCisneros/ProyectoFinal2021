@@ -20,11 +20,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('informacion.Informacion') }}">Información</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contenido</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contenido
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Nivel 1</a></li>
+                            <li><a class="dropdown-item" href="#">Nivel 2</a></li>
+                            <li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('ayuda.Ayuda') }}">Ayuda</a>
