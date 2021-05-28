@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #40E0D0;">
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #01FFD5;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">INTEGRACION DIGITAL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -51,6 +51,20 @@
             </div>
         </div>
     </nav>
+
+
+    <div class="content">
+
+                <div class="title m-b-md">
+                <nav class="navbar navbar-light bg-main">
+                  <div class="container p-4">
+                      <a class="navbar-brand m-auto" href="#">
+                     <img src="{{asset('images/b.gif')}}" width="400" alt="" loading="lazy">
+                  </a>
+                  </div>
+               </nav>
+                </div>
+            </div>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
