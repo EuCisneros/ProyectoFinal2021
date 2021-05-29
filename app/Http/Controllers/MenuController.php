@@ -25,4 +25,12 @@ class MenuController extends Controller
     {
         return view('mision.mision');
     }
+    public function contenido ()
+    {
+        return view('contenido.Primernivel');
+    }
+    public function segundo ()
+    {
+        return view('segundo.segundonivel');
+    }
 }
