@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Route::get('/ayuda/Ayuda', [App\Http\Controllers\WreckController::class, 'wreck'])->name('ayuda.Ayuda');
 
+Route::get('/primernivel/primernivel', [App\Http\Controllers\ContenidoController::class, 'primernivel'])->name('primernivel.primernivel');
+
 Route::get('/comunidad/Comunidad', [App\Http\Controllers\MenuController::class, 'comunidad'])->name('comunidad.Comunidad');  
 Route::get('/derechos/Derechos', [App\Http\Controllers\MenuController::class, 'derechos'])->name('derechos.Derechos'); 
 Route::get('/informacion/Informacion', [App\Http\Controllers\MenuController::class, 'informacion'])->name('informacion.Informacion'); 
