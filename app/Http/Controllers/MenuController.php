@@ -33,4 +33,8 @@ class MenuController extends Controller
     {
         return view('segundo.segundonivel');
     }
+    public function agenda ()
+    {
+        return view('cont.agenda');
+    }
 }
