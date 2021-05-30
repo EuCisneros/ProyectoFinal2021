@@ -17,16 +17,16 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Agenda Visual</a>
+                        <a class="nav-link" href="{{ route('primernivel.agenda') }}">Agenda Visual</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Por la Mañana</a>
+                        <a class="nav-link" href="{{ route('primernivel.mañana') }}">Por la Mañana</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Por la Tarde</a>
+                        <a class="nav-link" href="{{ route('primernivel.tarde') }}">Por la Tarde</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Antes de Dormir</a>
+                        <a class="nav-link" href="{{ route('primernivel.dormir') }}">Antes de Dormir</a>
                     </li>
                 </ul>
 

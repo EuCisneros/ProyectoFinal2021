@@ -18,12 +18,23 @@ Route::get('/', function () {
 });
 
 Route::get('/ayuda/Ayuda', [App\Http\Controllers\WreckController::class, 'wreck'])->name('ayuda.Ayuda');
-
-Route::get('/primernivel/primernivel', [App\Http\Controllers\ContenidoController::class, 'primernivel'])->name('primernivel.primernivel');
-
 Route::get('/comunidad/Comunidad', [App\Http\Controllers\MenuController::class, 'comunidad'])->name('comunidad.Comunidad');
 Route::get('/derechos/Derechos', [App\Http\Controllers\MenuController::class, 'derechos'])->name('derechos.Derechos');
 Route::get('/informacion/Informacion', [App\Http\Controllers\MenuController::class, 'informacion'])->name('informacion.Informacion');
 Route::get('/mision/mision', [App\Http\Controllers\MenuController::class, 'mision'])->name('mision.mision');
+
 Route::get('/primernivel/primernivel', [App\Http\Controllers\MenuController::class, 'primernivel'])->name('primernivel.primernivel');
+Route::get('/primernivel/agenda', [App\Http\Controllers\MenuController::class, 'primernivel'])->name('primernivel.agenda');
+Route::get('/primernivel/dormir', [App\Http\Controllers\MenuController::class, 'primernivel'])->name('primernivel.dormir');
+Route::get('/primernivel/mañana', [App\Http\Controllers\MenuController::class, 'primernivel'])->name('primernivel.mañana');
+Route::get('/primernivel/tarde', [App\Http\Controllers\MenuController::class, 'primernivel'])->name('primernivel.tarde');
+
 Route::get('/segundo/segundonivel', [App\Http\Controllers\MenuController::class, 'segundo'])->name('segundo.segundonivel');
+Route::get('/segundo/conversacion', [App\Http\Controllers\MenuController::class, 'conversacion'])->name('segundo.conversacion');
+Route::get('/segundo/escucha', [App\Http\Controllers\MenuController::class, 'escucha'])->name('segundo.escucha');
+Route::get('/segundo/noverbal', [App\Http\Controllers\MenuController::class, 'noverbal'])->name('segundo.noverbal');
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

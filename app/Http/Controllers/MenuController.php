@@ -28,9 +28,40 @@ class MenuController extends Controller
     public function primernivel ()
     {
         return view('primernivel.Primernivel');
+
     }
     public function segundo ()
     {
         return view('segundo.segundonivel');
+
     }
+    public function dormir ()
+    {
+        return view('primernivel.dormir');
+    }
+    public function tarde ()
+    {
+        return view('primernivel.tarde');
+    }
+    public function mañana ()
+    {
+        return view('primernivel.mañana');
+    }
+    public function agenda ()
+    {
+        return view('primernivel.agenda');
+    }
+    public function conversacion ()
+    {
+    return view('segundo.conversacion');
+    }
+    public function escucha ()
+    {
+        return view('segundo.escucha');
+    }
+    public function noverbal ()
+    {
+        return view('segundo.noverbal');
+    }
+
 }
