@@ -12,7 +12,7 @@
 
 @yield('Contenido')
 <div class="fixed-top">
-    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #00CA99;">
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #02A0AD;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">INTEGRACION DIGITAL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
