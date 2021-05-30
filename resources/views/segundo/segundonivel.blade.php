@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('segundo.escucha') }}">Habilidades de Escucha</a>
+                        <a class="nav-link" href="{{ route('segundo.escuchar') }}">Habilidades de Escucha</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('segundo.noverbal') }}">Habilidades No Verbales</a>
