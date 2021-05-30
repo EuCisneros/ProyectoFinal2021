@@ -28,13 +28,11 @@ class MenuController extends Controller
     public function primernivel ()
     {
         return view('primernivel.Primernivel');
+
     }
     public function segundo ()
     {
         return view('segundo.segundonivel');
-    }
-    public function agenda ()
-    {
-        return view('cont.agenda');
+
     }
 }
