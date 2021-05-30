@@ -35,6 +35,6 @@ Route::get('/segundo/escuchar', [App\Http\Controllers\MenuController::class, 'es
 Route::get('/segundo/noverbal', [App\Http\Controllers\MenuController::class, 'noverbal'])->name('segundo.noverbal');
 
 
-//Auth::routes();
+Auth::routes();
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
