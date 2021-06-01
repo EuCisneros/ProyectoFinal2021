@@ -12,7 +12,7 @@
 
 <body>
 
-    <h5>Aqui va la agenda visual que vera el niño</h5>
+    <h1>Aqui va la agenda visual que vera el niño</h1>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
