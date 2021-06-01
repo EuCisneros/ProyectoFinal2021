@@ -11,8 +11,22 @@
 </head>
 
 <body>
-
-    <h1>Aqui va la agenda visual que vera el niño</h1>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center mt-5">
+                <div class="row">
+                    <div class="col-12 text-center mt-5">
+                        <div class="card m-auto" style="width: 60rem;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
