@@ -31,7 +31,7 @@ Route::get('/primernivel/tarde', [App\Http\Controllers\MenuController::class, 't
 
 Route::get('/segundo/segundonivel', [App\Http\Controllers\MenuController::class, 'segundo'])->name('segundo.segundonivel');
 Route::get('/segundo/conversacion', [App\Http\Controllers\MenuController::class, 'conversacion'])->name('segundo.conversacion');
-Route::get('/segundo/escuchar', [App\Http\Controllers\MenuController::class, 'escuchar'])->name('segundo.escuchar');
+Route::get('/segundo/escucha', [App\Http\Controllers\MenuController::class, 'escucha'])->name('segundo.escucha');
 Route::get('/segundo/noverbal', [App\Http\Controllers\MenuController::class, 'noverbal'])->name('segundo.noverbal');
 
 
