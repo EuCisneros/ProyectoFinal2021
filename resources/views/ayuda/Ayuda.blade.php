@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+<hr>
     <h5>Pequeño tutorial de como usar la app</h5>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"

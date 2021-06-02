@@ -12,7 +12,7 @@
 
 <body>
     <div class='menu'>
-        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #01FFD5;">
+        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #02A5B2; border:2px solid Teal;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">INTEGRACION DIGITAL</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"

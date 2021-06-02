@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<hr>
 <div id="app">
     <h5>No pude realizar el foro</h5>
 

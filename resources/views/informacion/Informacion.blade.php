@@ -11,13 +11,13 @@
 </head>
 
 <body>
-
+<hr>
     <section class="container-fluid content py-5">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-7 text-center">
+            <div class="col-12 col-md-6 text-center">
                 <h1>Información</h1>
                 <img src="images/TEA" class="img-fluid" alt="">
-                <p class="text-left">
+                <p class="text-justify">
                     El trastorno del espectro autista o TEA
                     es un trastorno del desarrollo que se caracteriza
                     por dos tipos de comportamientos inusuales:
@@ -50,7 +50,7 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2>Mas informacion acerca de autismo</h2>
-                <hr class="post-hr">
+                <hr>
             </div>
             <div class="col-md-4 col-12 justify-content-center mb-5">
                 <div class="card m-auto" style="width: 18rem;">

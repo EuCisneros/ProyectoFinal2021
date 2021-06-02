@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+<hr>
     <h5>actividades a que se realizan por la tarde</h5>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"

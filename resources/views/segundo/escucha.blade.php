@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,7 @@
 </head>
 
 <body>
-
+<hr>
     <section class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-5">
@@ -21,8 +22,6 @@
                                 <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
                                     allowfullscreen></iframe>
                             </div>
-
-
                             <div class="card-body">
                                 <h5 class="card-title my-2">SIMON DICE</h5>
                                 <div class="d-card-text">
@@ -32,20 +31,23 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 text-center mt-5">
                         <div class="card m-auto" style="width: 60rem;">
                             <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/MWcl7Lef_Iw" title="YouTube video player" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/MWcl7Lef_Iw" title="YouTube video player"
+                                    allowfullscreen></iframe>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title my-2">CONGELADOS</h5>
                                 <div class="d-card-text">
-                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con música. Cuando la música se detenga, todos deben quedarse inmóviles. 
+                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
+                                    música. Cuando la música se detenga, todos deben quedarse inmóviles.
                                 </div>
-
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 text-center mt-5">
                         <div class="card m-auto" style="width: 60rem;">
                             <div class="ratio ratio-16x9">
@@ -55,12 +57,13 @@
                             <div class="card-body">
                                 <h5 class="card-title my-2">ADIVINA QUIEN</h5>
                                 <div class="d-card-text">
-                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con música. Cuando la música se detenga, todos deben quedarse inmóviles. 
+                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
+                                    música. Cuando la música se detenga, todos deben quedarse inmóviles.
                                 </div>
-
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

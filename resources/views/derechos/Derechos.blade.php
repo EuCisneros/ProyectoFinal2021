@@ -11,26 +11,75 @@
 </head>
 
 <body>
-<section class="container">
+<hr>
+<section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-5">
-                <div class="row">
-                    <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 60rem;">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
-                            </div>
+                <h2>Derechos de los niños con Autismo</h2>
+            </div>
+            <hr style="width:450px; border:2px solid #014E58;">
+            <hr>
 
-
-                            <div class="card-body">
-                                <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
-                                <div class="d-card-text">
-                                    Todos los niños tiene derechos, pero los niños con autismo...
-                                </div>
-
-                            </div>
+            <div class="col-6 text-center mt-12">
+                <div class="card m-auto" style="width: 40rem;">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
+                        <div class="d-card-text">
+                            Todos los niños tiene derechos, pero los niños con autismo...
                         </div>
+
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-6 text-center mt-12">
+                <div class="card m-auto" style="width: 40rem;">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
+                        <div class="d-card-text">
+                            Todos los niños tiene derechos, pero los niños con autismo...
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 text-center mt-12">
+                <div class="card m-auto" style="width: 40rem;">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
+                        <div class="d-card-text">
+                            Todos los niños tiene derechos, pero los niños con autismo...
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 text-center mt-12">
+                <div class="card m-auto" style="width: 40rem;">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
+                        <div class="d-card-text">
+                            Todos los niños tiene derechos, pero los niños con autismo...
+                        </div>
+
                     </div>
                 </div>
             </div>
