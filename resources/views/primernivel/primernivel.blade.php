@@ -17,7 +17,7 @@
             <div class="col-5 text-center mt-5">
                 <div class="row">
                     <div class="col-14 text-center mt-3">
-                        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #02A5B2; border:2px solid Teal">
+                        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #01918E; border:2px solid Teal">
                             <div class="container-fluid">
                                 <div class="collapse navbar-collapse" id="navbarText">
                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
