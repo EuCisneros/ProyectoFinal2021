@@ -52,6 +52,7 @@
                             <a class="nav-link" href="{{ route('mision.mision') }}">Misión y Visión</a>
                         </li>
                     </ul>
+
                 </div>
             </div>
         </nav>

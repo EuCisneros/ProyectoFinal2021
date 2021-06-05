@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class MenuController extends Controller
 {
+   
     public function comunidad ()
     {
         return view('comunidad.Comunidad');
