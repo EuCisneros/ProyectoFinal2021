@@ -16,7 +16,7 @@
     @include('layouts.app')
     <section class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 text-center mt-5">
+            <div class="col-12 text-center mt-10">
                 <h2>Misión y Visión</h2>
             </div>
             <hr style="width:450px; border:2px solid #014E58;">

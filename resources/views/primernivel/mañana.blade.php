@@ -78,7 +78,99 @@
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
+                        <div class="card-body">
+                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
+                                <div class="d-card-text">
+                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
+                                </div>
 
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 text-center mt-5">
+                <div class="row">
+                    <div class="col-14 text-center mt-3">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: #01918E; border:6px solid Teal">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
+                                <div class="d-card-text">
+                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
+                                </div>
+
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 text-center mt-5">
+                <div class="row">
+                    <div class="col-14 text-center mt-3">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: #01918E; border:6px solid Teal">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
+                                <div class="d-card-text">
+                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
+                                </div>
+
+                            </div>
 
                     </div>
                 </div>

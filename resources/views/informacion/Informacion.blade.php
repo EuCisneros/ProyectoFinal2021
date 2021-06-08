@@ -13,7 +13,7 @@
 <body>
     @include('welcome')
     @include('layouts.app')
-    <section class="container-fluid content py-5">
+    <section class="container-fluid content py-10">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 text-center">
                 <h1>Información</h1>

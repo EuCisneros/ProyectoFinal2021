@@ -49,16 +49,40 @@
         </div>
     </section>
 
-    
+
     <section class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-5">
                 <div class="row">
-                    <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 60rem;">
+
+            
+
+                    <div class="col-6 text-center mt-12">
+                        <div class="card m-auto" style="width: 30rem;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/Yzdebzz4oDU" title="YouTube video player" frameborder></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title my-2">Con este tutorial aprenderemos a Crear una Agenda Visual</h5>
+                                <div class="d-card-text">
+                                    Aprenderemos a crear la agenda visual paso a paso, una pequeña introduction de que es la agenda visual y porque es bueno tener esta util herramienta.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 text-center mt-12">
+                        <div class="card m-auto" style="width: 30rem;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/z3xhfkHGhwU" title="YouTube video player" frameborder></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
+                                <div class="d-card-text">
+                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
+                                </div>
+
                             </div>
                         </div>
                     </div>

@@ -49,10 +49,10 @@
 
     <section class="container">
         <div class="row justify-content-center">
-            <div class="col-12 text-center mt-5">
+            <div class="col-12 text-center mt-10">
                 <div class="row">
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 60rem;">
+                        <div class="card m-auto" style="width: 40rem;">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
                                     allowfullscreen></iframe>
@@ -68,7 +68,7 @@
                     </div>
 
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 60rem;">
+                        <div class="card m-auto" style="width: 40rem;">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/MWcl7Lef_Iw" title="YouTube video player"
                                     allowfullscreen></iframe>
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 60rem;">
+                        <div class="card m-auto" style="width: 40rem;">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
                                     allowfullscreen></iframe>
