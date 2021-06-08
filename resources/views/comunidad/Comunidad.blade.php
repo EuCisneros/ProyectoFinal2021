@@ -11,36 +11,39 @@
 </head>
 
 <body>
-<hr>
-<div id="app">
-    <h5>No pude realizar el foro</h5>
+    <hr>
+    <div id="app">
+        @include('welcome')
+        @include('layouts.app')
+        <h5>No pude realizar el foro</h5>
 
-    <nav class="navbar navbar-light bg-main">
-        <div class="container p-4">
-            <a class="navbar-brand m-auto" href="#">
-                <img src="{{asset('images/sad.gif')}}" width="150" alt="" loading="lazy">
-            </a>
-        </div>
-    </nav>
-    <section class="container-fluid content py-5">
-        <div class="row justify-content-center">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su correo">
+        <nav class="navbar navbar-light bg-main">
+            <div class="container p-4">
+                <a class="navbar-brand m-auto" href="#">
+                    <img src="{{asset('images/sad.gif')}}" width="150" alt="" loading="lazy">
+                </a>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Ingresar Texto</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-  <label for="formFileMultiple" class="form-label">Seleccionar Archivos</label>
-  <input class="form-control" type="file" id="formFileMultiple" multiple>
-  <button type="button" class="btn btn-primary">Enviar</button>
-</div>
+        </nav>
+        <section class="container-fluid content py-5">
+            <div class="row justify-content-center">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingrese su correo">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingresar Texto</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Seleccionar Archivos</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
 
-        </div>
-    </section>
-</div>
+            </div>
+        </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">

@@ -11,8 +11,9 @@
 </head>
 
 <body>
-<hr>
-<section class="container-fluid">
+    @include('welcome')
+    @include('layouts.app')
+    <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-5">
                 <h2>Derechos de los niños con Autismo</h2>
@@ -35,22 +36,6 @@
                     </div>
                 </div>
             </div>
-           
-            <div class="col-6 text-center mt-12">
-                <div class="card m-auto" style="width: 40rem;">
-                    <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
-                        <div class="d-card-text">
-                            Todos los niños tiene derechos, pero los niños con autismo...
-                        </div>
-
-                    </div>
-                </div>
-            </div>
 
             <div class="col-6 text-center mt-12">
                 <div class="card m-auto" style="width: 40rem;">
@@ -67,7 +52,23 @@
                     </div>
                 </div>
             </div>
-            
+
+            <div class="col-6 text-center mt-12">
+                <div class="card m-auto" style="width: 40rem;">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title my-2">Cuales son los derechos de mi hijo</h5>
+                        <div class="d-card-text">
+                            Todos los niños tiene derechos, pero los niños con autismo...
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             <div class="col-6 text-center mt-12">
                 <div class="card m-auto" style="width: 40rem;">
                     <div class="ratio ratio-16x9">

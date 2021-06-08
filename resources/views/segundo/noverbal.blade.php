@@ -11,7 +11,42 @@
 </head>
 
 <body>
-    <hr>
+@include('welcome')
+    @include('layouts.app')
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-7 text-center mt-10">
+                <div class="row">
+                    <div class="col-14 text-center mt-3">
+
+                        <nav class="navbar navbar-light navbar-expand-lg"
+                            style="background-color: #01918E; border:2px solid Teal">
+                            <div class="container-fluid">
+                                <div class="collapse navbar-collapse" id="navbarText">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('segundo.escucha') }}">Habilidades de
+                                                Escucha</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('segundo.noverbal') }}">Habilidades No
+                                                Verbales</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('segundo.conversacion') }}">Habilidades
+                                                de Conversación</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <h1>no verbal</h1>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">

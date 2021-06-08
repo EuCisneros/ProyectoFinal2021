@@ -97,22 +97,13 @@
                 </div>
             </div>
         </nav>
-        
+
         <main class="py-4">
             @yield('content')
         </main>
     </div>
 
-    <div class="content">
-        <div class="title m-b-md">
-            <nav class="navbar navbar-light bg-main">
-                <div class="container p-4">
-                    <a class="navbar-brand m-auto" href="#"><img src="{{asset('images/b.gif')}}" width="400" alt=""
-                            loading="lazy"></a>
-                </div>
-            </nav>
-        </div>
-    </div>
+
     </div>
 
 </body>

@@ -1,4 +1,3 @@
-@extends('layouts.app')
-@section('content')
 @include('welcome')
-@endsection
+@include('layouts.app')
+@include('img')

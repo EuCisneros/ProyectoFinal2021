@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <hr>
+    @include('welcome')
+    @include('layouts.app')
     <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-5">
