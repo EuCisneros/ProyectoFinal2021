@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <hr>
     <div id="app">
         @include('welcome')
         @include('layouts.app')
