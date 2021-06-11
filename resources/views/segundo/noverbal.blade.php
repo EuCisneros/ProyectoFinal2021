@@ -52,49 +52,29 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-10">
                 <div class="row">
-                    <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title my-2">SIMON DICE</h5>
-                                <div class="d-card-text">
-                                    Te divertiras siguiendo ordenes a simon
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid LightSalmon;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/MWcl7Lef_Iw" title="YouTube video player"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/qvmOGy7Pb40" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title my-2">CONGELADOS</h5>
+                            <div class="card-body" style="background-color: #F9C787;">
+                                <h5 class="card-title my-2">SIMON LO HACE</h5>
                                 <div class="d-card-text">
-                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
-                                    música. Cuando la música se detenga, todos deben quedarse inmóviles.
+                                En esta dinámica los niños aprenden a realizar actividades  viendo lo que otros hacen sin necesidad de forzar ya que se realiza por medio de un juego.
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid LightSalmon;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/HGDixnCWQAE" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title my-2">ADIVINA QUIEN</h5>
+                            <div class="card-body" style="background-color: #F9C787;">
+                                <h5 class="card-title my-2">ADIVINA CON MIMICA</h5>
                                 <div class="d-card-text">
-                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
-                                    música. Cuando la música se detenga, todos deben quedarse inmóviles.
+                                Con esta actividad los niños desarrollan sus habilidades de comunicación no verbal, realizando gestos y movimientos con el cuerpo.
                                 </div>
                             </div>
                         </div>

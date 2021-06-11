@@ -52,15 +52,14 @@
             <div class="col-12 text-center mt-10">
                 <div class="row">
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid Gold;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/w_RHmkNXjP4" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body" style="background-color: #DAF7A6;">
                                 <h5 class="card-title my-2">SIMON DICE</h5>
                                 <div class="d-card-text">
-                                    Te divertiras siguiendo ordenes a simon
+                                Te divertiras siguiendo ordenes a simon!!! con este video los niños podran aprender a escuchar lo que se les indica hacer y les ayudara a desarrollar habilidades auditivas.
                                 </div>
 
                             </div>
@@ -68,12 +67,12 @@
                     </div>
 
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid Gold;">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/MWcl7Lef_Iw" title="YouTube video player"
                                     allowfullscreen></iframe>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body" style="background-color: #DAF7A6;">
                                 <h5 class="card-title my-2">CONGELADOS</h5>
                                 <div class="d-card-text">
                                     Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
@@ -83,17 +82,16 @@
                         </div>
                     </div>
 
+
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid Gold;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/C6ceoTxSLIQ" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body" style="background-color: #DAF7A6;">
                                 <h5 class="card-title my-2">ADIVINA QUIEN</h5>
                                 <div class="d-card-text">
-                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
-                                    música. Cuando la música se detenga, todos deben quedarse inmóviles.
+                                    Con esta actividad los niños aprenden a comprender y asociar las ideas para encontrar las respuestas correctas.
                                 </div>
                             </div>
                         </div>

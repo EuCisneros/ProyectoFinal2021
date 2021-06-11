@@ -15,7 +15,7 @@
     @include('layouts.app')
     <section class="container">
         <div class="row justify-content-center">
-            <div class="col-6 text-center mt-10">
+            <div class="col-5 text-center mt-10">
                 <div class="row">
                     <div class="col-14 text-center mt-10">
                         <nav class="navbar navbar-light navbar-expand-lg"
@@ -34,10 +34,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('primernivel.tarde') }}">Por la Tarde</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('primernivel.dormir') }}">Antes de
-                                                Dormir</a>
-                                        </li>
                                     </ul>
 
                                 </div>
@@ -49,7 +45,53 @@
         </div>
     </section>
 
-    <h5>actividades a que se realizan por la tarde</h5>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 text-center mt-5">
+                <div class="row">
+                    <div class="col-14 text-center mt-3">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: #4B0082; border:6px solid Indigo">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <img src="{{ asset ('images/T1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset ('images/T2.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset ('images/T3.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                                <h5 class="card-title my-2">Actividades que desarrollamos por la tarde</h5>
+                                <div class="d-card-text">
+                                    -Es la hora de almorzar.
+                                </div>
+                                <div class="d-card-text">
+                                    -Despues vamos a jugar, no olvides recoger tus juguetes despues de jugar.
+                                </div>
+                                <div class="d-card-text">
+                                    -Se hace tarde y llega la hora de prepararnos para dormir.
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">

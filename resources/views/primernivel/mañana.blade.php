@@ -15,7 +15,7 @@
     @include('layouts.app')
     <section class="container">
         <div class="row justify-content-center">
-            <div class="col-6 text-center mt-10">
+            <div class="col-5 text-center mt-10">
                 <div class="row">
                     <div class="col-14 text-center mt-10">
                         <nav class="navbar navbar-light navbar-expand-lg"
@@ -34,11 +34,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('primernivel.tarde') }}">Por la Tarde</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('primernivel.dormir') }}">Antes de
-                                                Dormir</a>
-                                        </li>
-                                    </ul>
+                                        </ul>
 
                                 </div>
                             </div>
@@ -61,10 +57,10 @@
                                     <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset ('images/D2.jpg')}}" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset ('images/D3.jpg')}}" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -79,11 +75,16 @@
                             </button>
                         </div>
                         <div class="card-body">
-                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
+                                <h5 class="card-title my-2">Actividades que realizamos por la mañana</h5>
                                 <div class="d-card-text">
-                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
+                                    -Por la mañana nos lavamos los dientes y el rostro.
                                 </div>
-
+                                <div class="d-card-text">
+                                    -Luego comemos un rico y nutritivo desayuno.
+                                </div>
+                                <div class="d-card-text">
+                                    -Y tambien nos damos un baño.
+                                </div>
                             </div>
 
                     </div>
@@ -92,91 +93,9 @@
         </div>
     </section>
 
-    <section class="container">
-        <div class="row justify-content-center">
-            <div class="col-8 text-center mt-5">
-                <div class="row">
-                    <div class="col-14 text-center mt-3">
 
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: #01918E; border:6px solid Teal">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active ">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <div class="card-body">
-                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
-                                <div class="d-card-text">
-                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
-                                </div>
 
-                            </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="row justify-content-center">
-            <div class="col-8 text-center mt-5">
-                <div class="row">
-                    <div class="col-14 text-center mt-3">
-
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: #01918E; border:6px solid Teal">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active ">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset ('images/D1.jpg')}}" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <div class="card-body">
-                                <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
-                                <div class="d-card-text">
-                                    Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta
-                                </div>
-
-                            </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">

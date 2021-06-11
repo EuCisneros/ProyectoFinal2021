@@ -15,7 +15,7 @@
     @include('layouts.app')
     <section class="container">
         <div class="row justify-content-center">
-            <div class="col-6 text-center mt-10">
+            <div class="col-5 text-center mt-10">
                 <div class="row">
                     <div class="col-14 text-center mt-10">
                         <nav class="navbar navbar-light navbar-expand-lg"
@@ -34,11 +34,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('primernivel.tarde') }}">Por la Tarde</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('primernivel.dormir') }}">Antes de
-                                                Dormir</a>
-                                        </li>
-                                    </ul>
+                                       </ul>
 
                                 </div>
                             </div>
@@ -58,14 +54,14 @@
             
 
                     <div class="col-6 text-center mt-12">
-                        <div class="card m-auto" style="width: 30rem;">
+                        <div class="card m-auto" style="width: 30rem; border:2px solid MediumOrchid;">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/Yzdebzz4oDU" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title my-2">Con este tutorial aprenderemos a Crear una Agenda Visual</h5>
+                            <div class="card-body" style="background-color: #DDA0DD;">
+                                <h5 class="card-title my-2">Aprenderemos a Crear una Agenda Visual</h5>
                                 <div class="d-card-text">
-                                    Aprenderemos a crear la agenda visual paso a paso, una pequeña introduction de que es la agenda visual y porque es bueno tener esta util herramienta.
+                                    Aprenderemos a crear la agenda visual paso a paso y porque es bueno tener esta util herramienta.
                                 </div>
 
                             </div>
@@ -73,11 +69,11 @@
                     </div>
 
                     <div class="col-6 text-center mt-12">
-                        <div class="card m-auto" style="width: 30rem;">
+                        <div class="card m-auto" style="width: 30rem; border:2px solid MediumOrchid;">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/z3xhfkHGhwU" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body" style="background-color: #DDA0DD;">
                                 <h5 class="card-title my-2">Como utilizar la Agenda Visual</h5>
                                 <div class="d-card-text">
                                     Con este video recibiremos los consejos y sugerencias de como podemos hacer uso de esta herramienta

@@ -15,7 +15,7 @@
     @include('layouts.app')
     <section class="container">
         <div class="row justify-content-center">
-            <div class="col-6 text-center mt-10">
+            <div class="col-5 text-center mt-10">
                 <div class="row">
                     <div class="col-14 text-center mt-3">
                         <nav class="navbar navbar-light navbar-expand-lg"
@@ -34,10 +34,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('primernivel.tarde') }}">Por la Tarde</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('primernivel.dormir') }}">Antes de
-                                                Dormir</a>
-                                        </li>
                                     </ul>
 
                                 </div>
@@ -48,6 +44,17 @@
             </div>
         </div>
     </section>
+
+    <div class="content">
+        <div class="title m-b-md">
+            <nav class="navbar navbar-light bg-main">
+                <div class="container p-4">
+                    <a class="navbar-brand m-auto" href="#"><img src="{{asset('images/NIVEL 1.JPG')}}" width="600" alt=""
+                            loading="lazy"></a>
+                </div>
+            </nav>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">

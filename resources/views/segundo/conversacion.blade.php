@@ -47,21 +47,19 @@
         </div>
     </section>
 
-
     <section class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center mt-10">
                 <div class="row">
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid SeaGreen;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/S1MCe7ikmFA" title="YouTube video"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/pn9dURRfRoE" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title my-2">SIMON DICE</h5>
+                            <div class="card-body" style="background-color: #98FB98;">
+                                <h5 class="card-title my-2">JUEGO DE DULCES</h5>
                                 <div class="d-card-text">
-                                    Te divertiras siguiendo ordenes a simon
+                                    Con este video los niños podran comprender repasar muchos temas entre numeros, colores, animales de una forma divertida, pondran en practica la comprencion auditiva y otras habilidades mas.
                                 </div>
 
                             </div>
@@ -69,16 +67,14 @@
                     </div>
 
                     <div class="col-12 text-center mt-5">
-                        <div class="card m-auto" style="width: 40rem;">
+                        <div class="card m-auto" style="width: 40rem; border:2px solid SeaGreen;">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/MWcl7Lef_Iw" title="YouTube video player"
-                                    allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/IHxiaIL0Ku0" title="YouTube video player" frameborder></iframe>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title my-2">CONGELADOS</h5>
+                            <div class="card-body" style="background-color: #98FB98;">
+                                <h5 class="card-title my-2">CUENTO</h5>
                                 <div class="d-card-text">
-                                    Esta dinamica ayuda la comprencion auiditiva, anima a tu hijo a bailar o moverse con
-                                    música. Cuando la música se detenga, todos deben quedarse inmóviles.
+                                    Este video ayudara a comprender mas a los niños con autismo y esto permitira que otros niños puedan interactuar con ellos.
                                 </div>
                             </div>
                         </div>
