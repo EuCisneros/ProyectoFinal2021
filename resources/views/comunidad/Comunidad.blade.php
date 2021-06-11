@@ -15,34 +15,65 @@
     <div id="app">
         @include('welcome')
         @include('layouts.app')
-        <h5>No pude realizar el foro</h5>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">FACEBOOK - COMUNIDAD PARA PADRES</h5>
+        <p class="card-text">Sean bienvenidos a nuestro grupo de Facebook</p>
+        <a href="https://www.facebook.com/groups/2890105691229878/"  target="_blank" class="btn btn-primary">UNIRSE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">WHATSAPP - COMUNIDAD PARA PADRES</h5>
+        <p class="card-text">Sean bienvenidos a nuestro grupo de WhatsApp</p>
+        <a href="https://chat.whatsapp.com/Ln58kmAsjUjBrq0d0vDq3w" target="_blank" class="btn btn-primary">UNIRSE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">TELEGRAM - COMUNIDAD PARA PADRES</h5>
+        <p class="card-text">Sean bienvenidos a nuestro grupo de Telegram</p>
+        <a href="https://t.me/joinchat/YjtXEUoKOu1hMjBh" target="_blank" class="btn btn-primary">UNIRSE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">LINE - COMUNIDAD PARA PADRES</h5>
+        <p class="card-text">Sean bienvenidos a nuestro grupo de Line</p>
+        <a href="https://line.me/R/ti/g/b6RbLaG0zP" target="_blank" class="btn btn-primary">UNIRSE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">VIBER - COMUNIDAD PARA PADRES</h5>
+        <p class="card-text">Sean bienvenidos a nuestro grupo de Viber</p>
+        <a href="https://invite.viber.com/?g2=AQBvtZuKe6hVJk19sI4fVpnckWl2OQ7LZtrSe%2F87qqdxsxI0Nr9cEX1RoaqS3DOM" target="_blank" class="btn btn-primary">UNIRSE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">YOUTUBE - COMUNIDAD PARA PADRES</h5>
+        <p class="card-text">Sean bienvenidos a nuestro canal</p>
+        <a href="#" target="_blank" class="btn btn-primary">UNIRSE</a>
+      </div>
+    </div>
+  </div>
+</div>
+       
+</div>
 
-        <nav class="navbar navbar-light bg-main">
-            <div class="container p-4">
-                <a class="navbar-brand m-auto" href="#">
-                    <img src="{{asset('images/sad.gif')}}" width="150" alt="" loading="lazy">
-                </a>
-            </div>
-        </nav>
-        <section class="container-fluid content py-5">
-            <div class="row justify-content-center">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Correo</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Ingrese su correo">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Ingresar Texto</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="mb-3">
-                    <label for="formFileMultiple" class="form-label">Seleccionar Archivos</label>
-                    <input class="form-control" type="file" id="formFileMultiple" multiple>
-                    <button type="button" class="btn btn-primary">Enviar</button>
-                </div>
-
-            </div>
-        </section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
