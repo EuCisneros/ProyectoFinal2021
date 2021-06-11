@@ -30,7 +30,7 @@
                                     <div class="card m-auto" style="width: 18rem;">
                                         <img class="card-img-top" src="{{asset('images/MISION.jpg')}}"
                                             alt="Post MISION">
-                                        <div class="card-body">
+                                        <div class="card-body" style="background-color: #8DE4D6;">
                                             <h5 class="card-title my-2">Misión</h5>
                                             <div class="d-card-text">
                                                 Nuestra misión es llegar a alcanzar
@@ -50,7 +50,7 @@
                                     <div class="card m-auto" style="width: 18rem;">
                                         <img class="card-img-top" src="{{asset('images/VISION.jpg')}}"
                                             alt="Post VISION">
-                                        <div class="card-body">
+                                        <div class="card-body" style="background-color: #DAF7A6;">
                                             <h5 class="card-title my-2">Visión</h5>
                                             <div class="d-card-text">
                                                 Nuestra visión es desarrollar una web app
@@ -69,7 +69,7 @@
                                     <div class="card m-auto" style="width: 18rem;">
                                         <img class="card-img-top" src="{{asset('images/VYP.jpg')}}"
                                             alt="Post VALORES Y PRINCIPIOS">
-                                        <div class="card-body">
+                                        <div class="card-body" style="background-color: #FA8072;">
                                             <h5 class="card-title my-2">Valores y Principios</h5>
                                             <div class="d-card-text">
                                                 Confianza - Colaboración - Transparente - Valentía - Respeto al

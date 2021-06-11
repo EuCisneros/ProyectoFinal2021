@@ -11,9 +11,26 @@
 </head>
 
 <body>
-@include('welcome')
+    @include('welcome')
     @include('layouts.app')
-    <h5>Pequeño tutorial de como usar la app</h5>
+
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center mt-10">
+                <div class="row">
+                    <div class="col-12 text-center mt-5">
+                        <div class="card m-auto" style="width: 40rem;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/iBObzo4_0gI" title="YouTube video player" frameborder></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
