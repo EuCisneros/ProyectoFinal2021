@@ -38,3 +38,7 @@ Route::get('/segundo/noverbal', [App\Http\Controllers\MenuController::class, 'no
 
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
